@@ -1,0 +1,23 @@
+{
+  "name": "@quad/invariant",
+  "version": "0.1.0",
+  "exports": "./src/invariant.ts",
+  "publish": {
+    "exclude": [
+      "*.test.ts"
+    ],
+    "include": [
+      "src/",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "tasks": {
+    "dev": "deno test --watch",
+    "publish:jsr": "deno publish"
+  },
+  "license": "Apache-2.0",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
