@@ -1,6 +1,7 @@
 {
   "name": "@quad/invariant",
   "version": "0.1.1",
+  "description": "TypeScript assertion functions",
   "exports": "./src/invariant.ts",
   "publish": {
     "exclude": [
