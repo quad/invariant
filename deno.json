@@ -1,15 +1,16 @@
 {
   "name": "@quad/invariant",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": "./src/invariant.ts",
   "publish": {
     "exclude": [
       "*.test.ts"
     ],
     "include": [
-      "src/",
       "LICENSE",
-      "README.md"
+      "PRIOR_ART.md",
+      "README.md",
+      "src/"
     ]
   },
   "tasks": {
