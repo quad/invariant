@@ -1,5 +1,5 @@
 {
-  "name": "@quad/invariant",
+"name": "@quad/invariant",
   "version": "0.1.1",
   "exports": "./src/invariant.ts",
   "publish": {
