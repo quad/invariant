@@ -1,6 +1,6 @@
 # @quad/invariant
 
-![JSR Version](https://img.shields.io/jsr/v/%40quad/invariant)
+[![JSR Version](https://img.shields.io/jsr/v/%40quad/invariant)](https://jsr.io/@quad/invariant)
 
 TypeScript assertion functions.
 
