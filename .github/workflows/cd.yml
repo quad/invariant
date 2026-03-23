@@ -8,7 +8,6 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.job }}-${{ github.ref }}
       cancel-in-progress: true
-    environment: fix
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -25,10 +24,10 @@ jobs:
           commit_message: "🤖 fix"
 
   publish:
-    runs-on: ubuntu-latest
     permissions:
       contents: read
       id-token: write
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: denoland/setup-deno@v2
