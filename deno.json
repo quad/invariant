@@ -14,6 +14,10 @@
     ]
   },
   "tasks": {
+    "cd": "deno task ci && deno task publish:jsr",
+    "ci:fix": "deno fmt && deno lint --fix",
+    "ci:test": "deno check && deno test",
+    "ci": "deno task ci:fix && deno task ci::test",
     "dev": "deno test --watch",
     "publish:jsr": "deno publish"
   },
