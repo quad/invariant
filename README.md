@@ -1,5 +1,7 @@
 # @quad/invariant
 
+![JSR Version](https://img.shields.io/jsr/v/%40quad/invariant)
+
 TypeScript assertion functions.
 
 - Statement form (`invariant`) and expression form (`nonnull`)
