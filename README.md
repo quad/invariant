@@ -12,6 +12,21 @@ TypeScript assertion functions.
 - Works in browser and on the server
 - Zero dependencies
 
+## Install
+
+```sh
+deno add jsr:@quad/invariant
+```
+
+For [other runtimes](https://jsr.io/docs/with/node):
+
+```sh
+bunx jsr add @quad/invariant   # bun
+npx jsr add @quad/invariant    # npm
+pnpm add jsr:@quad/invariant   # pnpm
+yarn add jsr:@quad/invariant   # yarn
+```
+
 ## Examples
 
 ### In the browser
