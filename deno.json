@@ -1,4 +1,5 @@
 {
+  "exclude": ["npm/"],
   "name": "@quad/invariant",
   "version": "0.1.2",
   "description": "TypeScript assertion functions",
@@ -19,11 +20,15 @@
     "ci:fix": "deno fmt && deno lint --fix",
     "ci:test": "deno check && deno test",
     "ci": "deno task ci:fix && deno task ci:test",
+    "build:npm": "deno run -A build_npm.ts",
     "dev": "deno test --watch",
-    "publish:jsr": "deno publish"
+    "publish:jsr": "deno publish",
+    "publish:npm": "deno task build:npm && cd npm && npm publish --access public",
+    "publish": "deno task publish:jsr && deno task publish:npm"
   },
   "license": "Apache-2.0",
   "imports": {
+    "@deno/dnt": "jsr:@deno/dnt@^0.42.3",
     "@std/assert": "jsr:@std/assert@1"
   }
 }
