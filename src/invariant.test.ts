@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 import { assertEquals, assertIsError, assertThrows } from "@std/assert";
 import { invariant, InvariantError, nonnull } from "./invariant.ts";
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+
 /** Thrown by {@link invariant} and {@link nonnull}. */
 export class InvariantError extends Error {
   /** @internal */
