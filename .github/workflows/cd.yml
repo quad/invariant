@@ -24,6 +24,7 @@ jobs:
           commit_message: "🤖 fix"
 
   publish:
+    needs: fix
     permissions:
       contents: read
       id-token: write
